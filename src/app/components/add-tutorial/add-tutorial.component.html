@@ -9,7 +9,7 @@
             <label for="description">Description</label>
             <input class="form-control" id="description" required [(ngModel)]="tutorial.description" name="description">
         </div>
-        <button (click)="SaveTutorial()" class="btn btn-success">Submit</button>
+        <button (click)="saveTutorial()" class="btn btn-success mt-2">Submit</button>
 
 
         <div *ngIf="submitted">
